@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Md. Saiful Islam Sumon - Business Analyst & IT Consultant Portfolio">
+    <title>Md. Saiful Islam Sumon | Portfolio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="space-canvas"></canvas>
+    <div id="shooting-stars"></div>
+    <div class="background-effects">
+        <div class="glow-orb orb-1"></div>
+        <div class="glow-orb orb-2"></div>
+        <div class="glow-orb orb-3"></div>
+    </div>
+
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Sumon<span>.</span></a>
+            <button class="nav-toggle" aria-label="Toggle Navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav class="nav-links">
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#education">Education</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#recommendations">Recommendations</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section hidden">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <span class="greeting">Hello, I'm</span>
+                    <h1 class="name">Md. Saiful Islam <span>Sumon</span></h1>
+                    <h2 class="title">Business Analyst & IT Consultant</h2>
+                    <p class="hero-desc">
+                        Hi, I'm a Business Analyst and IT Consultant who loves connecting the dots between business needs and technology. I specialize in finding simpler ways to solve complex problems and building IT solutions that actually help people and businesses grow.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/saiful-islam-sumon-6b7227277" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="mailto:mdsaifulislamsumon456@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                        <a href="https://github.com/ShariarSumon" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-wrapper">
+                        <!-- User will place the downloaded image in the assets folder as profile.jpg -->
+                        <img src="assets/WhatsApp Image 2026-07-15 at 3.49.03 AM.jpeg" alt="Md. Saiful Islam Sumon" onerror="this.src='https://via.placeholder.com/400x400/0a192f/64ffda?text=Sumon'">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section hidden">
+            <div class="section-container">
+                <h2 class="section-title">About <span>Me</span></h2>
+                <div class="about-content glass-card">
+                    <p>
+                        I'm Md. Saiful Islam Sumon, and my passion is turning complicated business challenges into smooth, technology-driven solutions. Coming from a Computer Science background at BUBT, I've always enjoyed living in the space where technical details meet big-picture business strategy. For me, it's all about building solutions that make sense and drive real growth.
+                    </p>
+                    <p>
+                        Currently, I'm working as a Senior Officer at SparkTech Agency, where I get to chat with international clients every day. I act as the bridge between what they need and what our engineering team builds. Whether I'm gathering requirements, optimizing a workflow, or just giving advice on the right tech to use, my goal is always to make sure our IT projects actually solve the client's problems.
+                    </p>
+                    <div class="personal-info">
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Barishal, Bangladesh</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>mdsaifulislamsumon456@gmail.com</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+880 1872546782</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section hidden">
+            <div class="section-container">
+                <h2 class="section-title">Work <span>Experience</span></h2>
+                <div class="timeline">
+                    <div class="timeline-item glass-card">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">Jan 2024 - Present</div>
+                        <h3 class="timeline-role">International Client Communication</h3>
+                        <h4 class="timeline-company">SparkTech Agency (Betopia Group)</h4>
+                        <ul class="timeline-tasks">
+                            <li>Chatted daily with international clients, figuring out exactly what they needed and explaining it simply to our developers.</li>
+                            <li>Answered questions and led technical discussions to make sure everyone was on the same page.</li>
+                            <li>Worked closely with different teams to make sure we delivered projects on time and solved any hiccups quickly.</li>
+                            <li>Streamlined how we communicate with clients, making things smoother and building stronger relationships.</li>
+                        </ul>
+                    </div>
+
+                    <div class="timeline-item glass-card">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">May 2024 - Oct 2024</div>
+                        <h3 class="timeline-role">IT Intern</h3>
+                        <h4 class="timeline-company">3S Softech Ltd.</h4>
+                        <ul class="timeline-tasks">
+                            <li>Helped keep POS systems running smoothly by fixing hardware, software, and network issues.</li>
+                            <li>Took care of the backend stuff, like making sure transactions went through and the database was happy.</li>
+                            <li>Dug into system problems to speed things up and reduce crashes.</li>
+                            <li>Kept a close eye on the data, running reports and doing updates to make sure everything was accurate.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education & Certifications Section -->
+        <section id="education" class="section hidden">
+            <div class="section-container">
+                <h2 class="section-title">Education & <span>Certifications</span></h2>
+                <div class="edu-grid">
+                    <div class="edu-column">
+                        <h3 class="column-title"><i class="fas fa-graduation-cap"></i> Education</h3>
+                        <div class="edu-card glass-card">
+                            <div class="edu-date">2020 - 2024</div>
+                            <h4 class="edu-degree">B.Sc. Engg. in Computer Science and Engineering</h4>
+                            <div class="edu-school">Bangladesh University of Business and Technology</div>
+                            <div class="edu-grade">CGPA: 3.36 / 4.00</div>
+                        </div>
+                        <div class="edu-card glass-card">
+                            <div class="edu-date">2017 - 2019</div>
+                            <h4 class="edu-degree">Higher Secondary Certificate (Science)</h4>
+                            <div class="edu-school">Monipur Uchcha Vidyalaya & College</div>
+                            <div class="edu-grade">GPA: 4.42 / 5.00</div>
+                        </div>
+                    </div>
+                    
+                    <div class="edu-column">
+                        <h3 class="column-title"><i class="fas fa-certificate"></i> Certifications</h3>
+                        <div class="cert-card glass-card">
+                            <div class="cert-header">
+                                <h4>MySQL Certification</h4>
+                                <span class="cert-date">Aug 2023</span>
+                            </div>
+                            <div class="cert-issuer">Great Learning Academy</div>
+                            <a href="https://www.mygreatlearning.com/certificate/XUFXRIRK?referrer_code=GLOE4FDBIIE4E" target="_blank" class="cert-link">View Credential <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                        <div class="cert-card glass-card">
+                            <div class="cert-header">
+                                <h4>CSS Certification</h4>
+                                <span class="cert-date">Nov 2023</span>
+                            </div>
+                            <div class="cert-issuer">Great Learning Academy</div>
+                            <a href="https://www.mygreatlearning.com/certificate/CJBSEOVV?referrer_code=GLOE4FDBIIE4E" target="_blank" class="cert-link">View Credential <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                        <div class="cert-card glass-card">
+                            <div class="cert-header">
+                                <h4>HTML Certification</h4>
+                                <span class="cert-date">Dec 2023</span>
+                            </div>
+                            <div class="cert-issuer">Great Learning Academy</div>
+                            <a href="https://www.mygreatlearning.com/certificate/MLXDQHXX?referrer_code=GLOE4FDBIIE4E" target="_blank" class="cert-link">View Credential <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section hidden">
+            <div class="section-container">
+                <h2 class="section-title">Technical <span>Skills</span></h2>
+                <div class="skills-grid">
+                    <!-- Programming -->
+                    <div class="skill-category glass-card">
+                        <h3 class="skill-title">Technical Skills</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">MERN Stack</span>
+                            <span class="skill-tag">HTML5</span>
+                            <span class="skill-tag">CSS3</span>
+                        </div>
+                    </div>
+                    <!-- Database -->
+                    <div class="skill-category glass-card">
+                        <h3 class="skill-title">Data & Automation</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">MySQL</span>
+                            <span class="skill-tag">MongoDB</span>
+                            <span class="skill-tag">n8n (Automation)</span>
+                        </div>
+                    </div>
+                    <!-- Soft Skills -->
+                    <div class="skill-category glass-card">
+                        <h3 class="skill-title">Consulting & Analysis</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Intl. Client Comm.</span>
+                            <span class="skill-tag">Business Analysis</span>
+                            <span class="skill-tag">Requirements Gathering</span>
+                        </div>
+                    </div>
+                    <!-- Languages -->
+                    <div class="skill-category glass-card">
+                        <h3 class="skill-title">Languages</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Bengali (Native)</span>
+                            <span class="skill-tag">English (B2)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section hidden">
+            <div class="section-container">
+                <h2 class="section-title">Featured <span>Projects</span></h2>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card glass-card">
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3>HRlynx</h3>
+                                <div class="project-links">
+                                    <a href="https://hrlynx.ai/" target="_blank" aria-label="Live Site"><i class="fas fa-external-link-alt"></i></a>
+                                </div>
+                            </div>
+                            <p class="project-desc">
+                                I built an AI-powered HR assistant that gives companies real-time advice on recruiting, compliance, and compensation. It takes the guesswork out of HR decisions, making things much easier for startups and growing businesses.
+                            </p>
+                            <div class="project-tech">
+                                <span>Figma</span>
+                                <span>Flutter</span>
+                                <span>Python & Django</span>
+                                <span>PostgreSQL</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 2 -->
+                    <div class="project-card glass-card">
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3>CalorieBalance Bistro</h3>
+                                <div class="project-links">
+                                    <a href="https://github.com/ShariarSumon/Portfolio-website" target="_blank" aria-label="GitHub Repository"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                            <p class="project-desc">
+                                A smart food ordering app I developed that caters to everyone—whether you're just ordering lunch, watching your diet, or managing diabetes. It features real-time alerts for sugar and calorie limits to help people make healthier choices without the stress.
+                            </p>
+                            <div class="project-tech">
+                                <span>PHP</span>
+                                <span>Laravel</span>
+                                <span>MySQL</span>
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Recommendations Section -->
+        <section id="recommendations" class="section hidden">
+            <div class="section-container">
+                <h2 class="section-title"><span>Recommendations</span></h2>
+                <div class="testimonials-grid">
+                    <!-- Rec 1 -->
+                    <div class="testimonial-card glass-card">
+                        <i class="fas fa-quote-left quote-icon"></i>
+                        <p class="testimonial-text">
+                            "Md. Saiful Islam Sumon spearheaded his team with exemplary leadership, delivering a cutting-edge, practical system that seamlessly addresses complex dietary needs. His technical mastery, innovative problem-solving, and unwavering dedication drove the project’s outstanding success."
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <h4>Md. Masudul Islam</h4>
+                                <span>Assistant Professor, CSE, BUBT</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Rec 2 -->
+                    <div class="testimonial-card glass-card">
+                        <i class="fas fa-quote-left quote-icon"></i>
+                        <p class="testimonial-text">
+                            "Md. Saiful Islam Sumon demonstrated exceptional skill in software development, databases, and programming, applying his expertise to solve real-world problems efficiently."
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <h4>T.M. Amir-Ul-Haque Bhuiyan</h4>
+                                <span>Assistant Professor, CSE, BUBT</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Rec 3 -->
+                    <div class="testimonial-card glass-card">
+                        <i class="fas fa-quote-left quote-icon"></i>
+                        <p class="testimonial-text">
+                            "Md. Saiful Islam Sumon demonstrated outstanding technical expertise, analytical problem-solving, and professionalism during his internship. He proactively contributed to IT operations and backend systems while managing international client communications..."
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <h4>Saiful Islam Fahim</h4>
+                                <span>GM, SparkTech Agency</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Footer / Contact -->
+        <footer id="contact" class="footer">
+            <div class="footer-container glass-card">
+                <div class="footer-content">
+                    <div class="footer-section">
+                        <h3>Get In Touch</h3>
+                        <p>Currently open for new opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
+                        <a href="mailto:mdsaifulislamsumon456@gmail.com" class="btn btn-primary">Say Hello</a>
+                    </div>
+                    <div class="footer-section">
+                        <h3>Interests & Hobbies</h3>
+                        <ul class="hobbies-list">
+                            <li><i class="fas fa-laptop-code"></i> Learning new tools & IT trends</li>
+                            <li><i class="far fa-futbol"></i> Playing Football</li>
+                            <li><i class="fas fa-globe-asia"></i> Exploring new cultures</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2026 Md. Saiful Islam Sumon. All Rights Reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
